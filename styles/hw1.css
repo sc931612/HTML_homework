@@ -1,0 +1,286 @@
+.center {
+    margin: auto;
+    width: 800px;
+    /* width: 80%; */
+    height: 1700px;
+    border: 5px solid navy;
+    box-shadow:
+        inset 0 0 0 5px rgb(0, 51, 128),
+        inset 0 0 0 10px rgb(0, 109, 128);
+    /* background: linear-gradient(0.15turn, #3f87a6, #ebf8e1, #f69d3c); */
+    /* background-color: rgba(0,0,0, 0.5); */
+    background-blend-mode: multiply;
+    background-image: url("../images/cancer-2.png"), linear-gradient(0.15turn, #3f87a6, #ebf8e1, #f69d3c);
+    background-repeat: no-repeat;
+    background-position: center 60%;
+    /* opacity: 0.4; */
+}
+
+.center2 {
+    margin: auto;
+    width: 730px;
+    height: 370px;
+    border: 5px solid navy;
+    background-color: #CCDDFF;
+}
+
+.center3 {
+    margin-left: 600px;
+    width: 260px;
+    height: 30px;
+}
+
+.center4 {
+    padding: 5px 0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 20px;
+    border-radius: 0 50px 50px 0;
+    background-color: rgb(0, 109, 128);
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.6);
+}
+
+
+.img1 {
+    width: 490px;
+    border-radius: 10px 10px 0 0;
+    /* opacity: 0.8; */
+}
+
+.img2:hover:hover {
+    opacity: 1;
+}
+
+.fig1 {
+    box-sizing: border-box;
+    background: orangered;
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin: 0 30px;
+    border: 5px solid rgb(40, 126, 238);
+    border-radius: 15px 15px 0 0;
+}
+
+.fig2 {
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(90, 131, 219);
+    margin: 5px;
+    margin-bottom: 15px;
+    width: 233px;
+    height: 163px;
+}
+
+.figcaption1 {
+    box-sizing: border-box;
+    color: #3f87a6;
+    font-weight: 900;
+    text-shadow: 0.05em 0.05em 0.1em yellow;
+    background-color: rgb(243, 214, 214);
+    box-shadow: 0 0 0 5px orange;
+    width: 470px;
+    height: 165px;
+    border: 10px dotted #0044aa;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.figcaption2 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95px;
+    padding-left: 5px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: #0044aab5;
+    text-shadow: 0.05em 0.05em 0.1em navy;
+    box-shadow:
+        0 0 0 5px rgb(0, 51, 128);
+}
+
+.figcaption3 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 85px;
+    padding-left: 5px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: #0044aab5;
+    text-shadow: 0.05em 0.05em 0.1em navy;
+    box-shadow:
+        0 0 0 5px rgb(0, 51, 128);
+}
+
+.figcaption4 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 104px;
+    padding-left: 5px;
+    margin-left: 65px;
+    border-radius: 10px;
+    background-color: #0044aab5;
+    text-shadow: 0.05em 0.05em 0.1em navy;
+    box-shadow:
+        0 0 0 5px rgb(0, 51, 128);
+}
+
+.banner a:link {
+    color: rgb(58, 225, 225);
+    text-decoration: none;
+}
+
+.banner a:visited {
+    color: rgb(241, 152, 241)
+}
+
+.banner a:hover {
+    color: gold;
+    font-weight: 900;
+}
+
+.banner a:active {
+    color: red;
+}
+
+h2 {
+    color: orange;
+    margin-left: 30px;
+    text-shadow: 0.1em 0.1em 0.1em black
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+.title1 {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.para1 {
+    padding: 0 10px;
+    width: 200px;
+    margin: 0 30px 20px 550px;
+    /* margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 550px; */
+    background-color: rgba(255, 255, 255, 0.6);
+    /* padding-left: 30; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.6);
+    text-align: justify;
+}
+
+.para2 {
+    box-sizing: border-box;
+    margin: 20px 30px;
+    padding: 0 10px;
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.6);
+    text-align: justify;
+}
+
+.para3 {
+    font-size: 80%;
+    float: left;
+}
+
+.para4 {
+    display: inline;
+    font-weight: 900;
+    margin-left: 30px;
+    background-color: #0044aa;
+    border-radius: 10px;
+    padding: 2px 10px 0 10px;
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.6);
+}
+
+
+.list1 {
+    list-style-position: inside;
+    width: 400px;
+    margin: 5px 0px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.6);
+}
+
+li {
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list2 {
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    height: 24px;
+    float: right;
+    list-style-image: url("../images/heart.png");
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.6);
+}
+
+.list3 {
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    height: 24px;
+    float: right;
+    list-style-image: url("../images/coin.png");
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.6);
+    vertical-align: middle;
+}
+
+.list4 {
+    margin-right: 100px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-right: 5px;
+    height: 24px;
+    float: right;
+    list-style-image: url("../images/briefcase.png");
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.6);
+}
+
+.list5 {
+    margin-top: 5px;
+    margin-right: 100px;
+    height: 24px;
+    float: right;
+    list-style-type: none;
+    color: rgb(100, 100, 100);
+    background-color: rgba(255, 255, 255, 0.6);
+    padding-left: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.6);
+
+}
+
+.img2 {
+    margin: 5px;
+    width: 223px;
+    opacity: 0.9;
+}
